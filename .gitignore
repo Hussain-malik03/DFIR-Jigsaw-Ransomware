@@ -1,0 +1,15 @@
+# Never commit malware samples or forensic images
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+*.E01
+*.Ex01
+*.dd
+*.raw
+*.img
+*.vmdk
+*.pcap
+*.pcapng
+Autopsy/

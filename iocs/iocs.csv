@@ -1,0 +1,17 @@
+type,value,context,source
+sha256,3ae96f73d805e1d3995253db4d910300d8442ea603737a1428b613061e7f61e7,Jigsaw payload (BitcoinBlackmailer.exe) - dropped as firefox.exe and drpbx.exe,Sandbox run + VirusTotal (64/71)
+sha1,27d99fbca067f478bb91cdbcb92f13a828b00859,Jigsaw payload (same file as above),VirusTotal
+md5,2773e3dc59472296cb0024ba7715a64e,Jigsaw payload (same file as above),Sandbox run
+sha256,49e6b1b9c6503df4105d548891e596bb91f4df63882a9cbbeb4ba541b897f049,Jigsaw.exe original sample,VirusTotal (55/72)
+file_path,%APPDATA%\Frfx\firefox.exe,Dropped copy of payload,Sandbox run
+file_path,%LOCALAPPDATA%\Drpbx\drpbx.exe,Dropped copy of payload / main ransomware process,Sandbox run
+process,drpbx.exe,Child process spawned by the dropper,Process tree
+registry,HKCU\Software\Microsoft\Windows\CurrentVersion\Run,Autorun persistence (T1547.001),Sandbox run
+ipv4,45.144.225[.]16,Associated infrastructure,Threat intel (OSINT)
+ipv4,83.244.163[.]204,Associated infrastructure,Threat intel (OSINT)
+ipv4,193.117.208[.]146,Associated infrastructure,Threat intel (OSINT)
+domain,blablaez.duckdns[.]org,Associated infrastructure,Threat intel (OSINT)
+domain,service-updater.hopto[.]org,Associated infrastructure,Threat intel (OSINT)
+domain,sf3q2wrq34.ddns[.]net,Associated infrastructure,Threat intel (OSINT)
+domain,totes.bluetoes[.]org,Associated infrastructure,Threat intel (OSINT)
+domain,demourl.co[.]nf,Associated infrastructure,Threat intel (OSINT)
